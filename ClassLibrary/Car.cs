@@ -8,7 +8,6 @@ namespace ClassLibrary
     {
         public  string LicensePlate;
         public DateTime Date;
-        
 
        
 
@@ -18,7 +17,16 @@ namespace ClassLibrary
         /// 
         public override double Price()
         {
-            return 240;
+            if(brobizz == "brobizz")
+            {
+                return (240 / 100) * 105;
+            }
+            else
+            {
+                return 240;
+
+            }
+
         }
 
         /// <summary>

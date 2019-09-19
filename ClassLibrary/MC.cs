@@ -17,7 +17,16 @@ namespace ClassLibrary
 
         public override double Price()
         {
-            return 125;
+          
+            if (brobizz == "brobizz")
+            {
+                return (125 / 100) * 105;
+            }
+            else
+            {
+                return 125;
+
+            }
         }
         /// <summary>
         /// This method returns string VehicleType
