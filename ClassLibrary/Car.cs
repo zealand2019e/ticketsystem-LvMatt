@@ -4,27 +4,30 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    public  class Car : Ticket
+    public class Car : Ticket
     {
         public  string LicensePlate;
-        public DateTime Date;
+        string Days = DateTime.Now.ToString("dddd");
 
-       
+
+
 
         /// <summary>
-        /// This method returns double price
+        /// This method returns double price it returns discount if your brobizz is true
         /// </summary>
         /// 
-        public override double Price()
+
+  
+
+        public  double WeekendDiscount()
         {
-            if(brobizz == "brobizz")
+            if (Days.Contains("Saturday" + "Sunday"))
             {
-                return (240 / 100) * 105;
+                return 20;
             }
             else
             {
-                return 240;
-
+                return 0;
             }
 
         }
@@ -37,8 +40,21 @@ namespace ClassLibrary
             return "Car";
         }
 
+        public override double Price()
+        {
+            if (brobizz = true)
+            {
+                return (240 / 100) * 105;
+            }
+            else
+            {
+                return 240;
+
+            }
+        }
+
         // int LPLength = LicensePlate.Length;
-      
+
 
     }
 }

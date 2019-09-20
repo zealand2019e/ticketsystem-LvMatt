@@ -12,13 +12,13 @@ namespace ClassLibrary
 
 
         /// <summary>
-        /// This method returns double price
+        /// This method returns double price if your brobizz is true it returns discount
         /// </summary>
 
         public override double Price()
         {
           
-            if (brobizz == "brobizz")
+            if (brobizz = true)
             {
                 return (125 / 100) * 105;
             }

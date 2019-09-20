@@ -4,8 +4,7 @@ namespace ClassLibrary
 {
     public abstract class Ticket
     {
-        //public double brobizz = 5;
-        public string brobizz;
+        public bool brobizz = false;
         public abstract double Price();
         
 

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:ClassLibrary.Car.Price">
+            <summary>
+            This method returns double price
+            </summary>
+            
+        </member>
+        <member name="M:ClassLibrary.Car.VehicleType">
+            <summary>
+            This method returns string VehicleType
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.MC.Price">
+            <summary>
+            This method returns double price
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.MC.Vehicle">
+            <summary>
+            This method returns string VehicleType
+            </summary>
+        </member>
+    </members>
+</doc>
